@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal Styles -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        .header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .section {
+            margin: 2em 0;
+            padding: 1em;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 1em;
+        }
+
+        .skill {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 8px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 4px;
+        }
+
+        .project {
+            margin-bottom: 1em;
+            padding: 1em;
+            background-color: #ecf0f1;
+            border-radius: 4px;
+        }
+
+        .link {
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <img src="mypic.jpg" alt="Profile Picture" style="border-radius: 50%; max-width: 100px;">
+        <h1>Muhammad Abbas</h1>
+        <p>Student at University of Engineering and Technology Mardan</p>
+    </header>
+    
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <!--<img src="mypic.jpg" alt="Profile Picture" style="border-radius: 50%; max-width: 200px; float: right; margin-right: 20px;">-->
+        <b><p>
+            Welcome to my portfolio! I'm Muhammad Abbas, a student at the University of Engineering and Technology Mardan. I'm passionate about coding and dedicated to delivering high-quality work.
+        </p>
+        <p>
+            Currently focusing on languages like C, C++, Java, HTML5, CSS3, JavaScript, and Dart. Although I don't have any projects to showcase yet, I'm eager to explore new opportunities and contribute to exciting projects.
+        </p></b>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li class="skill">C</li>
+            <li class="skill">CPP </li>
+            <li class="skill">JAVA</li>
+            <li class="skill">HTML5</li>
+            <li class="skill">CSS3</li>
+            <li class="skill">JavaScript</li>
+            <li class="skill">DART</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>No project yet, but exciting things are coming!</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out via email at <a href="mailto:abbas17299@gmail.com" class="link">abbas17299@gmail.com </a>.</p>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        // JavaScript code here
+        window.onload = function() {
+            alert("Welcome to My Portfolio!");
+        };
+    </script>
+</body>
+</html>
